@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/realfx/div/coding/dotnet/UniqueIdentifier-gen/UniqueIdentifier-gen/UniqueIdentifier-gen.csproj": {}
+  },
+  "projects": {
+    "/home/realfx/div/coding/dotnet/UniqueIdentifier-gen/UniqueIdentifier-gen/UniqueIdentifier-gen.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/realfx/div/coding/dotnet/UniqueIdentifier-gen/UniqueIdentifier-gen/UniqueIdentifier-gen.csproj",
+        "projectName": "UniqueIdentifier-gen",
+        "projectPath": "/home/realfx/div/coding/dotnet/UniqueIdentifier-gen/UniqueIdentifier-gen/UniqueIdentifier-gen.csproj",
+        "packagesPath": "/home/realfx/.nuget/packages/",
+        "outputPath": "/home/realfx/div/coding/dotnet/UniqueIdentifier-gen/UniqueIdentifier-gen/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/realfx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[6.0.9, 6.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.9, 6.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[6.0.9, 6.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.109/sdk/6.0.109/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

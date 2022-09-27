@@ -1,0 +1,5 @@
+publish
+UniqueIdentifier-gen/publish
+UniqueIdentifier-gen/bin
+.vs
+*.csproj.user

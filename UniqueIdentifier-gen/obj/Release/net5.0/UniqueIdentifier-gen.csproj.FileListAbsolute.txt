@@ -1,0 +1,16 @@
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\UniqueIdentifier-gen.exe
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\UniqueIdentifier-gen.deps.json
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\UniqueIdentifier-gen.runtimeconfig.json
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\UniqueIdentifier-gen.runtimeconfig.dev.json
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\UniqueIdentifier-gen.dll
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\UniqueIdentifier-gen.pdb
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.csproj.AssemblyReference.cache
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.AssemblyInfoInputs.cache
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.AssemblyInfo.cs
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.csproj.CoreCompileInputs.cache
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.dll
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\refint\UniqueIdentifier-gen.dll
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.pdb
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\UniqueIdentifier-gen.genruntimeconfig.cache
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\obj\Release\net5.0\ref\UniqueIdentifier-gen.dll

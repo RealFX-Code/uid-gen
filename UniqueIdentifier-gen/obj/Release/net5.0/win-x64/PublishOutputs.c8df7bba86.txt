@@ -1,0 +1,2 @@
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\publish\win-x64\UniqueIdentifier-gen.pdb
+C:\Users\MathiasAronsen\source\repos\UniqueIdentifier-gen\UniqueIdentifier-gen\bin\Release\net5.0\publish\win-x64\UniqueIdentifier-gen.exe
