@@ -17,6 +17,7 @@ then
     rm -R .vs
     rm -R UniqueIdentifier-gen/bin
     rm -R UniqueIdentifier-gen/obj
+    rm -R publish/
     exit 0
 fi
 
