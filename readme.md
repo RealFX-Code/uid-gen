@@ -11,9 +11,13 @@ Simply fork the repo and make a pull request. If I can understand the code, and 
 
 ## Building
 
+I don't use Visual Studio, So I don't know if the `.sln` project file still works, since I've edited the `.csproj` file without using Visual Studio.
+
 Simply run `dotnet build ./UniqueIdentifier-gen.csproj`
 
 Or, To build Release binaries for Linux and Windows, I've written a script (`publish.sh`) that'll build and expose built binaries.
+
+To clean binary files, run the script, `./clean.sh`.
 
 ## Installation
 

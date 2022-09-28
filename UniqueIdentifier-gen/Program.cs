@@ -67,8 +67,6 @@ namespace UniqueIdentifier_gen
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
         public static string filepath() => Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "/SilenceUID";
-        public static bool envvar => Environment.GetEnvironmentVariable("SilenceUID") != null 
-                                    && !Environment.GetEnvironmentVariable("SilenceUID").ToString().Equals("null");
         static void Main(string[] args)
         {
             encrypt encrypt = new encrypt();

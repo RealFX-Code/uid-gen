@@ -1,5 +1,7 @@
 publish
 UniqueIdentifier-gen/publish
 UniqueIdentifier-gen/bin
+UniqueIdentifier-gen/obj
+UniqueIdentifier-gen/Properties
 .vs
 *.csproj.user

@@ -1,2 +1,0 @@
-/home/realfx/Downloads/UniqueIdentifier-gen/UniqueIdentifier-gen/bin/Debug/net6.0/win-x64/publish/UniqueIdentifier-gen.pdb
-/home/realfx/Downloads/UniqueIdentifier-gen/UniqueIdentifier-gen/bin/Debug/net6.0/win-x64/publish/UniqueIdentifier-gen.exe
