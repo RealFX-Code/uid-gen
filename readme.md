@@ -1,15 +1,44 @@
-## uid `--Source`
+
+- [uid `--Source`](#uid---source)
+  - [What does it do?](#what-does-it-do)
+    - [How it works](#how-it-works)
+  - [Contributing](#contributing)
+    - [Requirements](#requirements)
+    - [Building](#building)
+  - [Installation](#installation)
+
+# uid `--Source`
 
 This is the repo for my FOSS, Uid!
 
-This is written in, and requires `.NET6.0`.
-I won't go into detail on how to install dotnet here, since it's not too easy unless you're on windows.
+## What does it do?
+
+`uid`, is a program I wrote, that generates a random string of hexadecimal characters.
+With just running it, You get a 64 character random string, which is the current unix timestamp, encrypted using AES encryption.
+If you pass a string as an argument to `uid`, It'll encrypt that string. It's not gauranteed to be 64 characters then.
+
+You may also pass the `-q` or `-v2q` argument to make it only print out the ID and not the input to the encryption.
+
+For more info on arguments, run `uid -help`.
+
+### How it works
+
+It uses AES encryption to encrypt a string.
+By default, without any arguments, it uses the current unix timestamp.
+If you choose to run `uid` with the `-v2` flag, it'll encrypt a random string of 16 random ASCII characters.
 
 ## Contributing
 
 Simply fork the repo and make a pull request. If I can understand the code, and it's an improvement over what's currently in UID, I'll merge it into the main branch.
 
-## Building
+### Requirements
+
+You need to have `dotnet-sdk 6.0` installed,
+and `bash`, only if you want to run the scripts to build/clean your local environment.
+
+With `dotnet-sdk 6.0` and `bash` installed, you're ready to build `uid`!
+
+### Building
 
 I don't use Visual Studio, So I don't know if the `.sln` project file still works, since I've edited the `.csproj` file without using Visual Studio.
 
