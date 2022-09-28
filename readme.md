@@ -1,5 +1,5 @@
 
-- [uid `--Source`](#uid---source)
+- [uid](#uid)
   - [What does it do?](#what-does-it-do)
     - [How it works](#how-it-works)
   - [Contributing](#contributing)
@@ -7,7 +7,7 @@
     - [Building](#building)
   - [Installation](#installation)
 
-# uid `--Source`
+# uid
 
 This is the repo for my FOSS, Uid!
 
