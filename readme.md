@@ -1,3 +1,6 @@
+# uid
+
+This is the repo for my FOSS, Uid!
 
 - [uid](#uid)
   - [What does it do?](#what-does-it-do)
@@ -7,9 +10,6 @@
     - [Building](#building)
   - [Installation](#installation)
 
-# uid
-
-This is the repo for my FOSS, Uid!
 
 ## What does it do?
 
