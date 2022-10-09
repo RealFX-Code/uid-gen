@@ -17,6 +17,8 @@ This is the repo for my FOSS, Uid!
 With just running it, You get a 64 character random string, which is the current unix timestamp, encrypted using AES encryption.
 If you pass a string as an argument to `uid`, It'll encrypt that string. It's not gauranteed to be 64 characters then.
 
+I also added an alternate method for generating an ID, By passing the `-v2` or `-v2q` argument. It'll encrypt a 16 character long string, containing the letters between A-Z and numbers between 0-9. It'll generate a 64 character long uid, just with a different input.
+
 You may also pass the `-q` or `-v2q` argument to make it only print out the ID and not the input to the encryption.
 
 For more info on arguments, run `uid -help`.
@@ -29,12 +31,12 @@ If you choose to run `uid` with the `-v2` flag, it'll encrypt a random string of
 
 ## Contributing
 
-Simply fork the repo and make a pull request. If I can understand the code, and it's an improvement over what's currently in UID, I'll merge it into the main branch.
+Simply fork the repo and make a pull request. If I can understand the code, and it's an improvement over what's currently in UID, I'll merge it into the master branch.
 
 ### Requirements
 
 You need to have `dotnet-sdk 6.0` installed,
-and `bash`, only if you want to run the scripts to build/clean your local environment.
+and `bash` (bash has to be at `/usr/bin/bash` for the scripts to work without tinkering.) , only if you want to run the scripts to build/clean your local environment.
 
 With `dotnet-sdk 6.0` and `bash` installed, you're ready to build `uid`!
 
