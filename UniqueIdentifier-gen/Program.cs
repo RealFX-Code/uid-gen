@@ -66,7 +66,7 @@ namespace UniqueIdentifier_gen
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-        public static string filepath() => Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "/SilenceUID";
+        public static string filepath() => Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "/.SilenceUID";
         static void Main(string[] args)
         {
             encrypt encrypt = new encrypt();
@@ -112,6 +112,7 @@ namespace UniqueIdentifier_gen
                         Console.WriteLine(encrypt.EncryptToString(RandomString(16)));
                         break;
                 }
+                return;
             }
             else
             {
@@ -125,7 +126,9 @@ namespace UniqueIdentifier_gen
 
                 Int32 unixTimestamp = (Int32)(DateTime.Now.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
                 Console.WriteLine("Your ID: " + encrypt.EncryptToString(unixTimestamp.ToString()));
+                return;
             }
+            throw new Exception("Nothing happened, i dunno.");
         }
     }
 }

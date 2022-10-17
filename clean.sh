@@ -15,6 +15,7 @@ if [[ "$yesOrNo" == "y" ]]
 then
     echo -e "You've chose to clean build files..."
     rm -R .vs
+    rm -R .vscode
     rm -R UniqueIdentifier-gen/bin
     rm -R UniqueIdentifier-gen/obj
     rm -R publish/
