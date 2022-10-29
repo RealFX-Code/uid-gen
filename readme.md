@@ -52,14 +52,11 @@ To clean binary files, run the script, `./clean.sh`.
 
 ## Installation
 
-I currently don't have a good way to install this.
-
-How I did it:
+Run the script I made to install UID.
 
 ```
-1, Put script somewhere accesible, for me that was "~/div/bin/uid"
-2, Symlink binary to path (E.G. /usr/local/bin)
-3, Run `uid -help` to verify.
+# The script does require superuser, it'll ask for that.
+$ ./install.sh
 ```
 
 rlfx (c) 2022
