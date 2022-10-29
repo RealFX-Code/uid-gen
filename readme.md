@@ -57,8 +57,8 @@ I currently don't have a good way to install this.
 How I did it:
 
 ```
-1, Make a script that opens the UID binary placed somewhere accesible.
-2, Symlink that script to somewhere in path (E.G. /usr/local/bin)
+1, Put script somewhere accesible, for me that was "~/div/bin/uid"
+2, Symlink binary to path (E.G. /usr/local/bin)
 3, Run `uid -help` to verify.
 ```
 
