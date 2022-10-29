@@ -1,10 +1,7 @@
 ﻿using System;
 using System.IO;
-using System.Text;
 using System.Linq;
 using System.Security.Cryptography;
-using System.Runtime.InteropServices;
-using System.Reflection.Metadata.Ecma335;
 
 namespace UniqueIdentifier_gen
 {
@@ -20,17 +17,17 @@ namespace UniqueIdentifier_gen
             if (IV == null || IV.Length <= 0)
                 throw new ArgumentNullException("IV");
             byte[] encrypted;
-
+            
             // Create an Aes object
             // with the specified key and IV.
             using (Aes aes = Aes.Create())
             {
                 aes.Key = Key;
                 aes.IV = IV;
-
+                
                 // Create an encryptor to perform the stream transform.
                 ICryptoTransform encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
-
+                
                 // Create the streams used for encryption.
                 using (MemoryStream msEncrypt = new MemoryStream())
                 {
@@ -120,15 +117,15 @@ namespace UniqueIdentifier_gen
                 {
                     if (!File.Exists(filepath()))
                     {
-                        Console.WriteLine("Note: You're running UID without any arguments, run 'uid.exe -help' for more info.\n");
+                        Console.WriteLine("Note: You're running UID without any arguments, run 'uid -help' for more info.\n");
                     }
                 }
-
+                
                 Int32 unixTimestamp = (Int32)(DateTime.Now.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
                 Console.WriteLine("Your ID: " + encrypt.EncryptToString(unixTimestamp.ToString()));
                 return;
             }
-            throw new Exception("Nothing happened, i dunno.");
+            throw new Exception("Somehow haven't done anything!");
         }
     }
 }
