@@ -2,7 +2,7 @@
 
 echo -e "Warning! This script will clean all binary files from this project!"
 
-echo -e "Are you sure you want to continut? (y/n)"
+echo -e "Are you sure you want to continue? (y/n)"
 read yesOrNo
 
 if [ -z $yesOrNo ];
